@@ -25,6 +25,6 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - uses: intrigus/private-action@main
+      - uses: intrigus-lgtm/private-action@main
         with:
           milliseconds: 1000
