@@ -28,3 +28,4 @@ jobs:
       - uses: intrigus-lgtm/private-action@main
         with:
           milliseconds: 1000
+      - uses: intrigus-lgtm/totally-unknown-repository-without-repository@main
